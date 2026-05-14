@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            width: 450px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .card {
+            background: #eeeeee;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Redis Dashboard</h1>
+
+        <div class="card">
+            <h2>Total Visits</h2>
+            <p>
+                <%= visits %>
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Total Messages</h2>
+            <p>
+                <%= messages %>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
